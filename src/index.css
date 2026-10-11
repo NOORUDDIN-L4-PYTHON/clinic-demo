@@ -36,8 +36,8 @@ footer { text-align: center; padding: 32px 24px; color: #6b7f86; font-size: 0.9r
 .msg { max-width: 85%; padding: 10px 12px; border-radius: 12px; font-size: 0.95rem; }
 .msg.bot { background: #fff; border: 1px solid #e3eef0; align-self: flex-start; }
 .msg.user { background: #0f9d94; color: #fff; align-self: flex-end; }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 12px; border-top: 1px solid #e3eef0; }
-.chips button { background: #e6f6f5; color: #0c6f69; border: none; border-radius: 999px; padding: 6px 12px; font-size: 0.85rem; cursor: pointer; }
+.chips { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 6px; padding: 8px 12px; border-top: 1px solid #e3eef0; }
+.chips button { flex-shrink: 0; white-space: nowrap; background: #e6f6f5; color: #0c6f69; border: none; border-radius: 999px; padding: 6px 12px; font-size: 0.85rem; cursor: pointer; }
 .chat-form { display: flex; gap: 8px; padding: 10px 12px; border-top: 1px solid #e3eef0; }
 .chat-form input { flex: 1; padding: 10px; border: 1px solid #c9dde0; border-radius: 8px; font: inherit; }
 .chat-form button { background: #0f9d94; color: #fff; border: none; border-radius: 8px; padding: 0 16px; font-weight: 600; cursor: pointer; }
