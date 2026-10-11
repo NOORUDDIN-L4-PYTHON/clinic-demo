@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ChatWidget from "./ChatWidget";
 
 const CLINIC = {
   name: "Palm Grove Dental",
@@ -123,6 +124,7 @@ export default function App() {
       <footer>
         <p>Demo website created as a portfolio sample. Clinic details are fictional.</p>
       </footer>
+            <ChatWidget clinic={CLINIC} services={services} />
     </div>
   );
 }
